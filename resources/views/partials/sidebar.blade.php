@@ -25,7 +25,7 @@
 
         <!-- Dashboard -->
         <li class="nav-item">
-            <a class="nav-link" href="{{ url('/dashboard') }}">
+            <a class="nav-link" href="{{ route('dashboard') }}">
                 <i class="mdi mdi-home menu-icon"></i>
                 <span class="menu-title">Dashboard</span>
             </a>
@@ -88,7 +88,7 @@
 
         <!-- Komunitas -->
         <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="{{ route('komunitas.index') }}">
                 <i class="mdi mdi-forum menu-icon"></i>
                 <span class="menu-title">Komunitas Petani</span>
             </a>
@@ -96,10 +96,11 @@
 
         <!-- Profil -->
         <li class="nav-item">
-            <a class="nav-link" href="#">
-                <i class="mdi mdi-account-circle menu-icon"></i>
-                <span class="menu-title">Profil Saya</span>
-            </a>
+           <a class="nav-link" href="{{ route('profil.index') }}">
+    <i class="mdi mdi-account-circle menu-icon"></i>
+    <span class="menu-title">Profil Saya</span>
+</a>
+
         </li>
 
         <!-- Logout -->

@@ -29,3 +29,8 @@ Route::middleware(['auth'])->prefix('profil')->name('profil.')->group(function (
     Route::get('/edit', [ProfilController::class, 'edit'])->name('edit');
     Route::post('/update', [ProfilController::class, 'update'])->name('update');
 });
+
+// routes/web.php
+Route::get('/pasar-hasil-tani', function () {
+    return view('pasar.index');
+})->name('pasar.index');

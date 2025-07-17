@@ -1,7 +1,7 @@
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
     <div class="text-center sidebar-brand-wrapper d-flex align-items-center">
         <a class="sidebar-brand brand-logo" href="#">
-            <img src="{{ asset('assets/images/logo.svg') }}" alt="logo" />
+            <img src="{{ asset('assets/images/logo.png') }}" alt="logo" />
         </a>
         <a class="sidebar-brand brand-logo-mini pl-4 pt-3" href="#">
             <img src="{{ asset('assets/images/logo-mini.svg') }}" alt="logo" />
@@ -13,11 +13,11 @@
         <li class="nav-item nav-profile">
             <a href="#" class="nav-link">
                 <div class="nav-profile-image">
-                    <img src="{{ asset('assets/images/faces/face1.jpg') }}" alt="profile" />
+                    <img src="{{ asset('assets/images/faces/profil.png') }}" alt="profile" />
                     <span class="login-status online"></span>
                 </div>
                 <div class="nav-profile-text d-flex flex-column pr-3">
-                    <span class="font-weight-medium mb-2">Henry Klein</span>
+                    <span class="font-weight-medium mb-2">Petani Coding</span>
                     <span class="font-weight-normal">Petani</span>
                 </div>
             </a>

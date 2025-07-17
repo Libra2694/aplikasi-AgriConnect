@@ -8,7 +8,7 @@
             <div class="card shadow-lg border-0 rounded-4">
                 <div class="card-body px-4 py-5">
                     <div class="text-center mb-4">
-                        <img src="{{ asset('assets/images/logo.svg') }}" alt="Logo" class="mx-auto d-block mb-4"
+                        <img src="{{ asset('assets/images/logo.png') }}" alt="Logo" class="mx-auto d-block mb-4"
                             style="max-height: 100px;">
                         <h4 class="mt-3">Selamat Datang 👋</h4>
                         <p class="text-muted">Masuk ke akun Agriconnect Anda</p>

@@ -14600,7 +14600,7 @@ dl {
     padding-right: 15px;
     width: calc(100% - 260px);
     height: 70px;
-    background: white; }
+    background: #000; }
     @media (max-width: 991px) {
       .navbar .navbar-menu-wrapper {
         width: 100%;

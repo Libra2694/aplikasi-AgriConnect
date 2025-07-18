@@ -72,3 +72,6 @@ Route::middleware(['auth'])->prefix('profil')->name('profil.')->group(function (
     Route::post('/update', [ProfilController::class, 'update'])->name('update');
 });
 
+Route::get('/pasar-hasil-tani', function () {
+    return view('pasar.index');
+})->name('pasar.index');

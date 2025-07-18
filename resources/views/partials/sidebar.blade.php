@@ -48,13 +48,12 @@
         </li>
 
         <!-- Manajemen Pertanian -->
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#manajemen" aria-expanded="false"
-                aria-controls="manajemen">
-                <i class="mdi mdi-calendar-range menu-icon"></i>
-                <span class="menu-title">Manajemen Pertanian</span>
-                <i class="menu-arrow"></i>
-            </a>
+                    <li class="nav-item">
+                <a class="nav-link" href="{{ route('pertanian.index') }}">
+                    <i class="mdi mdi-leaf"></i> 
+                    <span class="menu-title">Manajemen Pertanian</span>
+                </a>
+            </li>
             <div class="collapse" id="manajemen">
                 <ul class="nav flex-column sub-menu">
                     <li class="nav-item">

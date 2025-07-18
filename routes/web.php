@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PinjamanModalController;
 use App\Http\Controllers\AsuransiController;
+use App\Http\Controllers\ManajemenPertanianController;
 
 
 Route::get('/', fn() => redirect('/login'));
@@ -40,3 +41,7 @@ Route::get('/asuransi', [AsuransiController::class, 'index'])->name('asuransi.in
 Route::get('/asuransi/create', [AsuransiController::class, 'create'])->name('asuransi.create');
 Route::post('/asuransi', [AsuransiController::class, 'store'])->name('asuransi.store');
 Route::delete('/asuransi/{id}', [AsuransiController::class, 'destroy'])->name('asuransi.destroy');
+
+Route::middleware(['auth'])->group(function () {
+    Route::resource('pertanian', ManajemenPertanianController::class);
+});

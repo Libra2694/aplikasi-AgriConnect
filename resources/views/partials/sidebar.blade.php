@@ -69,7 +69,7 @@
 
         <!-- Layanan Keuangan -->
         <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#keuangan" aria-expanded="false" aria-controls="keuangan">
+            <a class="nav-link" data-toggle="collapse" href="{{ url('keuangan') }}" aria-expanded="false" aria-controls="keuangan">
                 <i class="mdi mdi-cash-multiple menu-icon"></i>
                 <span class="menu-title">Layanan Keuangan</span>
                 <i class="menu-arrow"></i>
@@ -80,8 +80,8 @@
                         <a class="nav-link" href="#">Pinjaman Modal</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Asuransi Pertanian</a>
-                    </li>
+                       <a class="nav-link" href="{{ route('asuransi.index') }}">Asuransi Pertanian</a>
+                 </li>  
                 </ul>
             </div>
         </li>

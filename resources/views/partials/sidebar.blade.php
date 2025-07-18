@@ -86,19 +86,19 @@
         </li>
 
         <!-- Komunitas -->
-        <li class="nav-item">
-            <a class="nav-link" href="#">
-                <i class="mdi mdi-forum menu-icon"></i>
-                <span class="menu-title">Komunitas Petani</span>
-            </a>
+      <li class="nav-item">
+                <a class="nav-link" href="{{ route('komunitas.index') }}">
+                    <i class="mdi mdi-leaf"></i> 
+                    <span class="menu-title">komunitas pertani</span>
+                </a>
         </li>
 
         <!-- Profil -->
         <li class="nav-item">
-            <a class="nav-link" href="#">
-                <i class="mdi mdi-account-circle menu-icon"></i>
-                <span class="menu-title">Profil Saya</span>
-            </a>
+                <a class="nav-link" href="{{ route('profil.index') }}">
+                    <i class="mdi mdi-leaf"></i> 
+                    <span class="menu-title">profil saya</span>
+                </a>
         </li>
 
         <!-- Logout -->

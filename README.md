@@ -115,13 +115,6 @@ Langkah-langkah:
 ---
 
 ## 📄 Lisensi
-Proyek ini menggunakan lisensi MIT
-© 2025 - Dibuat oleh Libra Team.
-
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-
----
-## 📄 Lisensi
 
 Proyek ini dirilis di bawah lisensi [MIT License](LICENSE).  
 Kamu bebas menggunakan, menyalin, memodifikasi, dan mendistribusikan proyek ini selama menyertakan copyright.

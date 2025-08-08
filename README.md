@@ -82,6 +82,13 @@ Sudah disiapkan untuk memudahkan proses setup lokal.
 
 ---
 
+## 📑 Laporan Proyek
+
+Laporan lengkap mengenai ide, fitur, alur kerja, dan proses pengembangan tersedia dalam bentuk PDF:  
+👉 [Lihat Laporan Proyek (PDF)](docs/laporan-agriconnect.pdf)
+
+---
+
 ## 🚀 Instalasi Proyek
 
 > 💡 Catatan: Proyek ini **tidak menggunakan `composer install` maupun `npm install`**.

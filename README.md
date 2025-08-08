@@ -114,7 +114,7 @@ Langkah-langkah:
 
 | Nama    | Lokasi     | GitHub |
 |---------|------------|--------|
-| Alif   | Indonesia  | [@Libra2694](https://github.com/Libra2694) |
+| Libra   | Indonesia  | [@Libra2694](https://github.com/Libra2694) |
 | Ari     | Indonesia  | [@alviandry](https://github.com/alviandry) |
 | Hafid   | Indonesia  | [@HafidAkbar](https://github.com/HafidAkbar) |
 | Reyhan  | Indonesia  | [@rey20013](https://github.com/rey20013) |
